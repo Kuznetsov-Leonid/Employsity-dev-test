@@ -22,12 +22,13 @@
 }
 
 .Header{
-    position: absolute;
+    position: fixed;
     width: 100%;
     background: rgba(16, 16, 29, 0.9);
     height: 100px;
     text-transform: uppercase;
     padding: 35px 0;
+    z-index: 20;
     .row{
         @include flex();
         flex-direction: row;

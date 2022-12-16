@@ -20,7 +20,7 @@ const Lorem = () => {
                 <Container>
                     <AnimBottom>
                         <div className={styles.title}>
-                            <blue>Lorem ipsum</blue> dolor sit amet consectetur <blue>adipiscing</blue>
+                            <blue>Lorem ipsum</blue> dolor sit ametconsectetur <blue>adipiscing</blue>
                         </div>
                     </AnimBottom>
                     <div className={styles.shorts}>
