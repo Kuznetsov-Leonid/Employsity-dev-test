@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '../components/header/header'
+import Header from '../components/header/header';
+import Lorem from '../components/home/lorem';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         </Head>
         <main>
           <Header/>
+          <Lorem/>
         </main>
       </>
   )
