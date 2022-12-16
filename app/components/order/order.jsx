@@ -6,6 +6,7 @@
 import styles from '../../styles/order.module.scss';
 import Container from '../container/container';
 import { AnimBottom } from '../animate/WueScroll';
+import Form from '../form/form';
 //------------------------------------------------
 import search from '../../public/order/search.svg';
 import procent from '../../public/order/procent.svg';
@@ -75,6 +76,9 @@ const Order = () =>{
                             
                         </div>
                     </AnimBottom>
+                    <div>
+                        <Form/>
+                    </div>
                 </Container>
             </div>
         </>

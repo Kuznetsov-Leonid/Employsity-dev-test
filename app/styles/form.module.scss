@@ -1,0 +1,54 @@
+.FormGroup{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+@font-face {
+	font-family: 'Lato400'; 
+	src: url(../fonts/Lato-Regular.ttf); 
+}
+
+@mixin fonts(){
+    font-family: 'Lato400';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text_field__input {
+    display: block;
+    width: 370px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #272733;
+    background: rgba(255, 255, 255, 0.85);
+    background-clip: padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text_field__input::placeholder {
+    color: #272733;
+    @include fonts();
+}
+
+.text_field__input:focus {
+    color: #FFFFFF;
+    background: rgba(61, 64, 80, 0.75);
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    @include fonts();
+}
+
+.text_field__input:disabled,
+.text_field__input[readonly] {
+    background: rgba(61, 64, 80, 0.85);
+    opacity: 1;
+}
