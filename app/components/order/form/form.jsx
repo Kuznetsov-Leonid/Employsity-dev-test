@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
-import styles from '../../styles/form.module.scss';
+import styles from '../../../styles/form.module.scss';
 import { Form } from 'react-bootstrap';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { LargeButtonBlue } from '../buttons/buttons';
+import { LargeButtonBlue } from '../../buttons/buttons';
 import { useForm } from 'react-hook-form';
 
 const Forms = () => {

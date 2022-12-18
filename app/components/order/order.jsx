@@ -6,7 +6,7 @@
 import styles from '../../styles/order.module.scss';
 import Container from '../container/container';
 import { AnimBottom } from '../animate/WueScroll';
-import Forms from '../form/form';
+import Forms from './form/form';
 import FormulaList from './formulaList';
 
 
