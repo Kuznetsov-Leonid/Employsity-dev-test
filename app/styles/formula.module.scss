@@ -1,0 +1,208 @@
+/*---formulaList---*/
+
+.formula_desc{
+    margin-bottom: 80px;
+    .formula_desc_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 0;
+        margin-bottom: 20px;
+        .formula_item{
+            .formula_item_img{
+                margin: 0 20px;
+                img{
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .formula_desc_txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .formula_item_txt{
+            color: #FFFFFF;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            max-width: 188px;
+            margin: 0 35px;
+        }
+    }
+}
+.formula_inlinPoint{
+    display: flex;
+    gap: 20px;
+    div{
+        width: 6px;
+        height: 6px;
+        background: #C4C4C4;
+        border-radius: 50px;
+    }
+}
+
+/*-------------------------------------*/
+.formula_mob{
+    display: none;
+    margin-bottom: 80px;
+    .formula_mob_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        margin-bottom: 20px;
+        .formula_item{
+            .formula_item_img{
+                margin: 20px 20px;
+                img{
+                    width: auto;
+                    max-width: 250px;
+                }
+            }
+        }
+        .formula_item_txt{
+            color: #FFFFFF;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            max-width: 250px;
+            margin: 20px 0px;
+        }
+    }
+    .formula_inlinPoint{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        div{
+            width: 6px;
+            height: 6px;
+            background: #C4C4C4;
+            border-radius: 50px;
+        }
+    }
+}
+
+
+@media (max-width: 1441px){
+    .formula_desc{
+        margin-bottom: 80px;
+        .formula_desc_img{
+            .formula_item{
+                .formula_item_img{
+                    margin: 0 10px;
+                }
+            }
+        }
+        .formula_desc_txt{
+            .formula_item_txt{
+                max-width: 170px;
+                font-size: 16px;
+                margin: 0 31px;
+            }
+        }
+    }
+    .formula_inlinPoint{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1250px){
+    .formula_desc{
+        margin-bottom: 80px;
+        .formula_desc_img{
+            .formula_item{
+                .formula_item_img{
+                    margin: 0 10px;
+                }
+            }
+        }
+        .formula_desc_txt{
+            .formula_item_txt{
+                max-width: 180px;
+                font-size: 16px;
+                margin: 0 10px;
+            }
+        }
+    }
+    .formula_inlinPoint{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1025px){
+    .formula_desc{
+        margin-bottom: 80px;
+        .formula_desc_img{
+            margin-bottom: 10px;
+            .formula_item{
+                .formula_item_img{
+                    margin: 0 10px;
+                    img{
+                        max-width: 80px;
+                    }
+                }
+            }
+        }
+        .formula_desc_txt{
+            .formula_item_txt{
+                max-width: 153px;
+                font-size: 15px;
+                margin: 0 9px;
+            }
+        }
+    }
+    .formula_inlinPoint{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 961px){
+    .formula_desc{
+        margin-bottom: 80px;
+        .formula_desc_img{
+            margin-bottom: 0px;
+            .formula_item{
+                .formula_item_img{
+                    margin: 0 10px;
+                    img{
+                        max-width: 55px;
+                    }
+                }
+            }
+        }
+        .formula_desc_txt{
+            .formula_item_txt{
+                max-width: 120px;
+                font-size: 10px;
+                margin: 0 9px;
+            }
+        }
+    }
+    .formula_inlinPoint{
+        gap: 10px;
+        div{
+            width: 3px;
+            height: 3px;
+            background: #C4C4C4;
+            border-radius: 50px;
+        }
+    }
+}
+
+@media (max-width: 769px){
+    .formula_desc{
+        display: none;
+    }
+    .formula_mob{
+        display:grid;
+    }
+}
