@@ -23,7 +23,6 @@
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     width: 183px;
-
 }
 
 .RegularButtonWhite{
@@ -80,6 +79,36 @@
     cursor:unset;
 }
 .RegularButtonWhite:disabled{
+    opacity: 0.6;
+    cursor:unset;
+}
+
+/*---LargeButtonBlue---*/
+
+.LargeButtonBlue{
+    @include btnFonts();
+    background: #3E9CDC;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 370px;
+}
+.LargeButtonBlue:hover:enabled{
+    color: #3E9CDC;
+    background-color: #FFFFFF;
+    border: 1px solid #3E9CDC;
+}
+.LargeButtonBlue:focus{
+    color: #1f6797;
+    background-color: #d8d7d7;
+    border: 1px solid #1f6797;
+}
+.LargeButtonBlue:active{
+    color: #1f6797;
+    background-color: #d8d7d7;
+    border: 1px solid #1f6797;
+}
+.LargeButtonBlue:disabled{
     opacity: 0.6;
     cursor:unset;
 }

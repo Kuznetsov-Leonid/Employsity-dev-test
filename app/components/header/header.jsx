@@ -21,6 +21,7 @@ const Header = () => {
             <>
             {NavbarAPI.map(({ id, item, path }) => (
                 <Link
+                    style={{'textDecoration':'none'}}
                     key = {id}
                     href = {path}
                     className = {`${pathname === path ? styles._Active : styles._Link}`}
@@ -38,7 +39,7 @@ const Header = () => {
                 <Container>
                     <div className={styles.row}>
                         <div className={styles.Logo}>
-                            <Link href = '/'>
+                            <Link style={{'textDecoration':'none', 'color':'inherit'}} href = '/'>
                                 loremipum.<blue>net</blue>
                             </Link>
                         </div>

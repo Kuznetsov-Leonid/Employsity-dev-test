@@ -37,6 +37,10 @@ a {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: linear-gradient(148.13deg, #272733 17.93%, #D6D1D4 52.07%, #3E9CDC 91.59%);;
+  background: #3E9CDC;
   border: #000000  solid 2px;
+}
+
+.form-select{
+  background: rgba(255, 255, 255, 0.85);
 }

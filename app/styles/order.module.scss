@@ -22,12 +22,12 @@
     content: " ";
     background: url('../public/order/bgOrder.png') no-repeat fixed top,  #272733;
     background-size: cover;
-    height: 100vh; 
     width: auto;
     position: realetive;
     z-index: -2;
     overflow: auto;   
     text-align: center;
+    padding-bottom: 150px;
     .title{
         display: flex;
         justify-content: center;

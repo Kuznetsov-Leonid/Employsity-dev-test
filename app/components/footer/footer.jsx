@@ -40,7 +40,12 @@ const Footer = () => {
                             {Contacts.map(({ id, img, txt })=>(
                                 <>
                                     <div className={styles.Contacts__item} key = {id}>
-                                        <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <a 
+                                            style={{'textDecoration':'none', 'color':'inherit'}} 
+                                            href="#" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                        >
                                             <Image src={img} alt={txt}/>
                                             <span>{txt}</span>
                                         </a>

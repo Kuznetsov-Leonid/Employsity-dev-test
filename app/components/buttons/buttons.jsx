@@ -45,6 +45,18 @@ export const RegularButtonWhite = (props) => {
 export const LargeButtonBlue = (props) => {
     return(
         <>
+            <button 
+                {...props}
+                href      = {props.href}
+                onClick   = {props.onClick}
+                disabled  = {props.disabled}
+                type      = {props.type}
+                value     = {props.value}
+                id        = {props.id}
+                className = {`${styles.LargeButtonBlue}`}
+            >
+                {props.title}
+            </button>
         </>
     );
 }
