@@ -46,5 +46,38 @@ github pages.
 </br>
 <h1 align="center">Relise</h1>
 </br>
+<h2 align="center">Desctop</h2>
+</br>
 <h2>Header</h2>
-
+<img src="../public/screen4.jpg" alt="Header">
+</br>
+<h2>Footer</h2>
+<img src="../public/screen3.jpg" alt="Footer">
+</br>
+<h2>Component 1</h2>
+<img src="../public/screen1.jpg" alt="Component 1">
+</br>
+<h2>Component 2</h2>
+<img src="../public/screen2.jpg" alt="Component 2">
+</br>
+<h2>Form</h2>
+<img src="../public/screen5.jpg" alt="Form">
+<img src="../public/screen6.jpg" alt="Response">
+</br>
+<h2 align="center">Mobile</h2>
+</br>
+<h2>Header</h2>
+<img src="../public/screen8.jpg" alt="Header">
+</br>
+<h2>Footer</h2>
+<img src="../public/screen11.jpg" alt="Footer">
+</br>
+<h2>Component 1</h2>
+<img src="../public/screen7.jpg" alt="Component 1">
+</br>
+<h2>Component 2</h2>
+<img src="../public/screen9.jpg" alt="Component 2">
+</br>
+<h2>Form</h2>
+<img src="../public/screen10.jpg" alt="Form">
+</br>
