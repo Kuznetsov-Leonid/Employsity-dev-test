@@ -19,38 +19,39 @@ const FormulaList = () => {
     ]
     return(
         <>
-            <div className={styles.desc}>
-                <div className={styles.formulaDesc_points}>
-                    {FormulaList.map(({id, display}) => (
-                        <div key = {id} className={display}>
-                            <div/>
-                            <div/>
-                            <div/>
-                            <div/>
-                            <div/>
-                        </div>
-                    ))}
-                </div>
-                <div className={styles.formulaDesc}>
-                    {FormulaList.map(({id, img, txt }) => (
-                        <div className={styles.formulaDesc_content}>
-                            <div key = {id} className={styles.formulaDesc_lay}>
-                                <div className={styles.formulaDesc_content_img}>
-                                    <Image 
-                                        src         = {img} 
-                                        alt         = {txt} 
-                                        placeholder = 'blurDataURL'
-                                    />
-                                </div>
-                                <div className={styles.formulaDesc_content_title}>
-                                    {txt}
+            <AnimBottom>
+                <div className={styles.desc}>
+                    <div className={styles.formulaDesc_points}>
+                        {FormulaList.map(({id, display}) => (
+                            <div key = {id} className={display}>
+                                <div/>
+                                <div/>
+                                <div/>
+                                <div/>
+                                <div/>
+                            </div>
+                        ))}
+                    </div>
+                    <div className={styles.formulaDesc}>
+                        {FormulaList.map(({id, img, txt }) => (
+                            <div className={styles.formulaDesc_content}>
+                                <div key = {id} className={styles.formulaDesc_lay}>
+                                    <div className={styles.formulaDesc_content_img}>
+                                        <Image 
+                                            src         = {img} 
+                                            alt         = {txt} 
+                                            placeholder = 'blurDataURL'
+                                        />
+                                    </div>
+                                    <div className={styles.formulaDesc_content_title}>
+                                        {txt}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
-            </div>
-            
+            </AnimBottom>
             <div className={styles.mob}>
                 <AnimBottom>
                     <div className={styles.formula_mob_img}>

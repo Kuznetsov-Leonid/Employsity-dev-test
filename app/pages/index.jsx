@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/header/header';
 import Lorem from '../components/home/lorem';
 import Order from '../components/order/order';
-import Footer from '../components/footer/footer';
 
 const Home = () => {
   return (
@@ -14,14 +11,10 @@ const Home = () => {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Header/>
         <main>
-          
           <Lorem/>
           <Order/>
-          
         </main>
-        <Footer/>
       </>
   )
 }
