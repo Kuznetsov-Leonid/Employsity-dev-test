@@ -1,3 +1,7 @@
+/**
+ * create by Kuznetsov Leonid 
+ * 16.12.2022
+ */
 import { useState } from 'react';
 import styles from '../../styles/hamburger.module.scss';
 

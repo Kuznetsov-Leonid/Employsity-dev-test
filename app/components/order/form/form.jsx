@@ -1,3 +1,7 @@
+/**
+ * create by Kuznetsov Leonid 
+ * 16.12.2022
+ */
 import React, { useRef } from 'react';
 import styles from '../../../styles/form.module.scss';
 import { Form } from 'react-bootstrap';

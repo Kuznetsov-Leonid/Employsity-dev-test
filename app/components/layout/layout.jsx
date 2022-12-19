@@ -1,3 +1,7 @@
+/**
+ * create by Kuznetsov Leonid 
+ * 16.12.2022
+ */
 import Header from '../header/header';
 import Footer from '../footer/footer';
 

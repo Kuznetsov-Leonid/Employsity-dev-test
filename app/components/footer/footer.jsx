@@ -1,3 +1,8 @@
+/**
+ * create by Kuznetsov Leonid 
+ * 16.12.2022
+ */
+
 import styles from '../../styles/footer.module.scss';
 import Container from '../container/container';
 import Image from 'next/image';

@@ -1,3 +1,7 @@
+/**
+ * create by Kuznetsov Leonid 
+ * 16.12.2022
+ */
 import styles from '../../styles/formula.module.scss';
 import { AnimBottom } from '../animate/WueScroll';
 //------------------------------------------------
