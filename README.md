@@ -46,38 +46,41 @@ github pages.
 </br>
 <h1 align="center">Relise</h1>
 </br>
+<p>Node JS: v18.7.0</p>
+<img align="center" src="/public/json.jpg" alt="json">
+</br>
 <h2 align="center">Desctop</h2>
 </br>
 <h2>Header</h2>
-<img src="../public/screen4.jpg" alt="Header">
+<img align="center" src="/public/screen4.jpg" alt="Header">
 </br>
 <h2>Footer</h2>
-<img src="../public/screen3.jpg" alt="Footer">
+<img align="center" src="/public/screen3.jpg" alt="Footer">
 </br>
 <h2>Component 1</h2>
-<img src="../public/screen1.jpg" alt="Component 1">
+<img align="center" src="/public/screen1.jpg" alt="Component 1">
 </br>
 <h2>Component 2</h2>
-<img src="../public/screen2.jpg" alt="Component 2">
+<img align="center" src="/public/screen2.jpg" alt="Component 2">
 </br>
 <h2>Form</h2>
-<img src="../public/screen5.jpg" alt="Form">
-<img src="../public/screen6.jpg" alt="Response">
+<img align="center" src="/public/screen5.jpg" alt="Form">
+<img align="center" src="/public/screen6.jpg" alt="Response">
 </br>
 <h2 align="center">Mobile</h2>
 </br>
 <h2>Header</h2>
-<img src="../public/screen8.jpg" alt="Header">
+<img align="center" src="/public/screen8.png" alt="Header">
 </br>
 <h2>Footer</h2>
-<img src="../public/screen11.jpg" alt="Footer">
+<img align="center" src="/public/screen11.png" alt="Footer">
 </br>
 <h2>Component 1</h2>
-<img src="../public/screen7.jpg" alt="Component 1">
+<img align="center" src="/public/screen7.png" alt="Component 1">
 </br>
 <h2>Component 2</h2>
-<img src="../public/screen9.jpg" alt="Component 2">
+<img align="center" src="/public/screen9.png" alt="Component 2">
 </br>
 <h2>Form</h2>
-<img src="../public/screen10.jpg" alt="Form">
+<img align="center" src="/public/screen10.png" alt="Form">
 </br>
