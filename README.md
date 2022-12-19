@@ -46,6 +46,8 @@ github pages.
 </br>
 <h1 align="center">Relise</h1>
 </br>
+<p>Node JS: v18.7.0</p>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -80,8 +82,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-<p>Node JS: v18.7.0</p>
+</br>
+<h3>Dependenciec</h3>
 <img align="center" src="/public/json.jpg" alt="json">
 </br>
 <h2 align="center">Desctop</h2>
@@ -119,3 +121,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 <h2>Form</h2>
 <img align="center" src="/public/screen10.png" alt="Form">
 </br>
+<h2>Выполнил</h2>
+<a href="https://hh.ru/resume/1aa9ab98ff0b85fc4a0039ed1f764765694648">Kuznetsov Leonid</a>
+<p>Email: Orlan1211@yaoo.com</p>
