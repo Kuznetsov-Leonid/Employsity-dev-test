@@ -65,7 +65,8 @@
     transition: 0.2s;
 }
 ._Link:hover{
-    text-shadow: 0px 3px 30px rgba(255, 255, 255, 0.8);
+    color: white;
+    text-shadow: 0px 3px 30px rgba(255, 255, 255, 0.9);
 }
 /*---------------------------*/
 ._Active{
@@ -73,7 +74,8 @@
     transition: 0.2s;
 }
 ._Active:hover{
-    text-shadow: 0px 3px 30px rgba(67, 171, 240, 0.8);
+    color: #43ABF0;
+    text-shadow: 0px 3px 30px rgba(67, 171, 240, 0.9);
 }
 /*---------------------------*/
 .Logo:hover{
