@@ -46,6 +46,7 @@ github pages.
 </br>
 <h1 align="center">Relise</h1>
 </br>
+<p>Task completed in the framework <a href="https://nextjs.org/" target="_blank">NextJS</a> v13.0.7</p>
 <p>Node JS: v18.7.0</p>
 <img align="center" src="/public/json.jpg" alt="json">
 </br>
