@@ -123,3 +123,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 <h2>Form</h2>
 <img align="center" src="/public/screen10.png" alt="Form">
 </br>
+<h2>Выполнил</h2>
+<a href="https://hh.ru/resume/1aa9ab98ff0b85fc4a0039ed1f764765694648">Kuznetsov Leonid</a>
+<p>Email: Orlan1211@yaoo.com</p>
