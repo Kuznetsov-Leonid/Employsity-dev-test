@@ -38,8 +38,8 @@ const FormulaList = () => {
                     </div>
                     <div className={styles.formulaDesc}>
                         {FormulaList.map(({id, img, txt }) => (
-                            <div className={styles.formulaDesc_content}>
-                                <div key = {id} className={styles.formulaDesc_lay}>
+                            <div key = {id} className={styles.formulaDesc_content}>
+                                <div className={styles.formulaDesc_lay}>
                                     <div className={styles.formulaDesc_content_img}>
                                         <Image 
                                             src         = {img} 
