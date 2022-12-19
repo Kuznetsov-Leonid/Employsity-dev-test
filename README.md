@@ -46,6 +46,9 @@ github pages.
 </br>
 <h1 align="center">Relise</h1>
 </br>
+<p>Node JS: v18.7.0</p>
+<img align="center" src="/public/json.jpg" alt="json">
+</br>
 <h2 align="center">Desctop</h2>
 </br>
 <h2>Header</h2>
