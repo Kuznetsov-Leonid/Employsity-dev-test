@@ -1,41 +1,3 @@
-/*---formulaList---*/
-
-.formula_desc{
-    margin-bottom: 80px;
-    .formula_desc_img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        gap: 0;
-        margin-bottom: 20px;
-        .formula_item{
-            .formula_item_img{
-                margin: 0 20px;
-                img{
-                    width: auto;
-                }
-            }
-        }
-    }
-
-    .formula_desc_txt{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .formula_item_txt{
-            color: #FFFFFF;
-            font-family: 'Lato';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
-            text-align: center;
-            max-width: 188px;
-            margin: 0 35px;
-        }
-    }
-}
 .formula_inlinPoint{
     display: flex;
     gap: 20px;
@@ -48,7 +10,7 @@
 }
 
 /*-------------------------------------*/
-.formula_mob{
+.mob{
     display: none;
     margin-bottom: 80px;
     .formula_mob_img{
@@ -204,5 +166,153 @@
     }
     .formula_mob{
         display:grid;
+    }
+}
+
+/*-------------------------*/
+.desc{
+    margin-bottom: 80px;
+}
+
+.formulaDesc_points{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 65px;
+    top: 52px;
+    margin: 0 90px;
+}
+
+.formulaDesc{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 55px;
+    .formulaDesc_lay{
+        display: block;
+        max-width: 188px;
+        .formulaDesc_content_img{
+            width: auto;
+            margin-bottom: 20px;
+        }
+        .formulaDesc_content_title{
+            color: #FFFFFF;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 1550px){
+    .formulaDesc_points{
+        left: 57px;
+        margin: 0 90px;
+    }
+    .formulaDesc{
+        margin: 0 60px;
+    }
+}
+
+@media (max-width: 1400px){
+    .formulaDesc_points{
+        left: 55px;
+        margin: 0 90px;
+        .formula_inlinPoint{
+            gap: 13px;
+        }
+    }
+    .formulaDesc{
+        margin: 0 90px;
+        .formulaDesc_content_img{
+            width: auto;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 1250px){
+    .formulaDesc_points{
+        left: 40px;
+        margin: 0px 90px;
+        .formula_inlinPoint{
+            gap: 10px;
+        }
+    }
+    .formulaDesc{
+        margin: 0 80px;
+        .formulaDesc_lay{
+            max-width: 155px;
+            .formulaDesc_content_img{
+                width: auto;
+                margin-bottom: 20px;
+                img{
+                    max-width: 80px;
+                }
+            }
+            .formulaDesc_content_title{
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1025px){
+    .formulaDesc_points{
+        left: 46px;
+        margin: 0px 70px;
+        .formula_inlinPoint{
+            gap: 7px;
+        }
+    }
+    .formulaDesc{
+        margin: 0 80px;
+        .formulaDesc_lay{
+            max-width: 130px;
+            .formulaDesc_content_img{
+                width: auto;
+                margin-bottom: 20px;
+                img{
+                    max-width: 80px;
+                }
+            }
+            .formulaDesc_content_title{
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px){
+    .formulaDesc_points{
+        left: 33px;
+        margin: 0px 90px;
+        .formula_inlinPoint{
+            gap: 4px;
+        }
+    }
+    .formulaDesc{
+        margin: 0 100px;
+        .formulaDesc_lay{
+            max-width: 120px;
+            .formulaDesc_content_img{
+                width: auto;
+                margin-bottom: 2px;
+                img{
+                    max-width: 60px;
+                }
+            }
+            .formulaDesc_content_title{
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 769px){
+    .desc{
+        display: none;
     }
 }

@@ -19,47 +19,39 @@ const FormulaList = () => {
     ]
     return(
         <>
-            <div className={styles.formula_desc}>
-                <AnimBottom>
-                <div className={styles.formula_desc_img}>
-                    {FormulaList.map(({ id, img, txt, display }) => (
-                        <>
-                            <div
-                                key       = {id}
-                                className = {styles.formula_item}
-                            >
-                                <div className={styles.formula_item_img}>
+            <div className={styles.desc}>
+                <div className={styles.formulaDesc_points}>
+                    {FormulaList.map(({id, display}) => (
+                        <div key = {id} className={display}>
+                            <div/>
+                            <div/>
+                            <div/>
+                            <div/>
+                            <div/>
+                        </div>
+                    ))}
+                </div>
+                <div className={styles.formulaDesc}>
+                    {FormulaList.map(({id, img, txt }) => (
+                        <div className={styles.formulaDesc_content}>
+                            <div key = {id} className={styles.formulaDesc_lay}>
+                                <div className={styles.formulaDesc_content_img}>
                                     <Image 
                                         src         = {img} 
                                         alt         = {txt} 
                                         placeholder = 'blurDataURL'
                                     />
                                 </div>
+                                <div className={styles.formulaDesc_content_title}>
+                                    {txt}
+                                </div>
                             </div>
-                            <div className={display}>
-                                <div/>
-                                <div/>
-                                <div/>
-                                <div/>
-                                <div/>
-                            </div>
-                        </>
+                        </div>
                     ))}
                 </div>
-                <div className={styles.formula_desc_txt}>
-                    {FormulaList.map(({ id, txt }) => (
-                        <>
-                            <div key={id} className={styles.formula_item_txt}>
-                                {txt}
-                            </div>
-                        </>
-                    ))}
-                </div>
-                </AnimBottom>
             </div>
-
             
-            <div className={styles.formula_mob}>
+            <div className={styles.mob}>
                 <AnimBottom>
                     <div className={styles.formula_mob_img}>
                         {FormulaList.map(({ id, img, txt, display }) => (
