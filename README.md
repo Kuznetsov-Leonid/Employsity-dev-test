@@ -1,8 +1,3 @@
-# Employsity-dev-test
-
-## ТЗ для тестового задания на должность HTML-верстальщика
-
-[**Исходный макет для выполнения задания**](https://www.figma.com/file/2b7UqUrTs4R8JQoYutlKTu/Test?node-id=0%3A1)
 
 **Требования к заданию:**
 
